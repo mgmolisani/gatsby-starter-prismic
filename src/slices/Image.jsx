@@ -10,7 +10,7 @@ const Content = styled.div`
 
 const Image = ({ input }) => (
   <Content>
-    <Img/>
+    <Img fluid={input.primary.image.localFile.childImageSharp.fluid} />
   </Content>
 );
 
